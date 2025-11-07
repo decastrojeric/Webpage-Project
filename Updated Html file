@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agile Software Development</title>
+  <link rel="stylesheet" href="./src/output.css" />
+</head>
+
+<body class="body-layout">
+  <div class="page-container">
+    <main class="main-content">
+      <div class="chapter-container">
+
+        <!-- Section 3.3 -->
+        <section id="sec-3-3" class="section">
+          <h2 class="section-title">3.3 Extreme Programming</h2>
+          <p class="paragraph">
+            Extreme Programming (XP) is one of the most widely used agile methods...
+          </p>
+
+          <figure class="figure">
+            <img src="sds/3.3.PNG" alt="XP Cycle" class="figure-img" />
+            <figcaption class="figure-caption">
+              <strong>Figure 3.3:</strong> The Extreme Programming release cycle
+            </figcaption>
+          </figure>
+
+          <figure class="figure">
+            <img src="sds/3.4.PNG" alt="XP Practices" class="figure-img" />
+            <figcaption class="figure-caption">
+              <strong>Figure 3.4:</strong> Extreme Programming practices
+            </figcaption>
+          </figure>
+
+          <div class="content-card">
+            <h3 class="subsection-title">Core XP Practices</h3>
+            <div class="two-col-grid">
+              <div class="info-box">
+                <p class="info-title">Incremental Planning</p>
+                <p class="info-text">Requirements as user stories; frequent small releases</p>
+              </div>
+              <div class="info-box">
+                <p class="info-title">Small Releases</p>
+                <p class="info-text">Develop minimal useful set of functionality first</p>
+              </div>
+              <div class="info-box">
+                <p class="info-title">Test-First Development</p>
+                <p class="info-text">Write tests before code; automated testing</p>
+              </div>
+              <div class="info-box">
+                <p class="info-title">Continuous Integration</p>
+                <p class="info-text">Integrate and test new code as soon as written</p>
+              </div>
+              <div class="info-box">
+                <p class="info-title">Pair Programming</p>
+                <p class="info-text">Two developers work together at one workstation</p>
+              </div>
+              <div class="info-box">
+                <p class="info-title">Refactoring</p>
+                <p class="info-text">Continuously improve code structure</p>
+              </div>
+              <div class="info-box">
+                <p class="info-title">Collective Ownership</p>
+                <p class="info-text">Anyone can change any code anywhere</p>
+              </div>
+              <div class="info-box">
+                <p class="info-title">Sustainable Pace</p>
+                <p class="info-text">No excessive overtime; maintain quality</p>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="subsection-title">3.3.1 Testing in XP</h3>
+          <p class="paragraph">
+            Testing is central to XP... continuous validation.
+          </p>
+
+          <div class="content-card">
+            <p class="info-title mb-3">Test-First Development Benefits:</p>
+            <ul class="list">
+              <li>Clarifies specifications before implementation</li>
+              <li>Discovers problems during development</li>
+              <li>Avoids “test lag” where implementation outpaces testing</li>
+              <li>Creates comprehensive automated test suite</li>
+            </ul>
+          </div>
+
+          <p class="paragraph">
+            However, test-first development has limitations...
+          </p>
+
+          <h3 class="subsection-title">3.3.2 Pair Programming</h3>
+          <p class="paragraph">
+            Pair programming involves two developers working together...
+          </p>
+        </section>
+
+        <!-- Section 3.4 -->
+        <section id="sec-3-4" class="section">
+          <h2 class="section-title">3.4 Agile Project Management</h2>
+          <p class="paragraph">
+            Scrum is an agile method focusing on managing iterative development...
+          </p>
+
+          <figure class="figure">
+            <img src="sds/3.5.PNG" alt="Scrum Process" class="figure-img" />
+            <figcaption class="figure-caption">
+              <strong>Figure 3.5:</strong> The Scrum sprint process
+            </figcaption>
+          </figure>
+
+          <div class="content-card">
+            <h3 class="subsection-title">Scrum Process</h3>
+            <ol class="list-ordered">
+              <li><span class="highlight">Initial Phase:</span> Establish objectives...</li>
+              <li><span class="highlight">Sprint Cycles:</span> 2-4 week iterations...</li>
+              <li><span class="highlight">Project Closure:</span> Complete documentation...</li>
+            </ol>
+          </div>
+
+          <h3 class="subsection-title">Key Scrum Elements</h3>
+          <div class="two-col-grid">
+            <div class="content-card">
+              <h4 class="info-title">Product Backlog</h4>
+              <p class="info-text">Prioritized list of features managed by Product Owner</p>
+            </div>
+            <div class="content-card">
+              <h4 class="info-title">Sprint Planning</h4>
+              <p class="info-text">Team selects backlog items for sprint...</p>
+            </div>
+            <div class="content-card">
+              <h4 class="info-title">Daily Scrum</h4>
+              <p class="info-text">15-minute daily meeting to review progress...</p>
+            </div>
+            <div class="content-card">
+              <h4 class="info-title">Sprint Review</h4>
+              <p class="info-text">Demonstrate completed work to stakeholders</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 3.5 -->
+        <section id="sec-3-5" class="section">
+          <h2 class="section-title">3.5 Scaling Agile Methods</h2>
+          <p class="paragraph">
+            While agile methods work well for small teams...
+          </p>
+
+          <h3 class="subsection-title">Challenges in Scaling</h3>
+          <div class="content-card">
+            <ul class="list">
+              <li><span class="highlight">System Complexity:</span> Large systems...</li>
+              <li><span class="highlight">Legacy Integration:</span> Interaction with existing systems...</li>
+              <li><span class="highlight">Configuration Management:</span> Significant effort in configuration...</li>
+              <li><span class="highlight">External Constraints:</span> Regulations may require documentation...</li>
+              <li><span class="highlight">Long Development Times:</span> Difficult to maintain teams...</li>
+              <li><span class="highlight">Diverse Stakeholders:</span> Impossible to involve all stakeholders...</li>
+            </ul>
+          </div>
+
+          <h3 class="subsection-title">Scaling Up Strategies</h3>
+          <p class="paragraph">
+            To scale agile to large systems while maintaining core principles:
+          </p>
+          <ol class="list-ordered ml-4">
+            <li>Invest in upfront architecture design and critical documentation</li>
+            <li>Establish cross-team communication mechanisms</li>
+            <li>Maintain frequent builds and regular releases</li>
+            <li>Adapt configuration management tools for multi-team development</li>
+          </ol>
+
+          <h3 class="subsection-title">Scaling Out Across Organizations</h3>
+          <p class="paragraph">
+            Introducing agile methods organization-wide faces cultural...
+          </p>
+          <ul class="list-disc ml-4">
+            <li>Management commitment and evangelists to promote change</li>
+            <li>Adaptation of organizational standards...</li>
+            <li>Significant resources devoted to cultural transformation</li>
+            <li>Patience — organizational change takes time</li>
+          </ul>
+
+          <p class="paragraph">
+            While few large organizations have fully transitioned to agile...
+          </p>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <!-- same footer content structure -->
+  </footer>
+</body>
+</html>
